@@ -5,6 +5,8 @@ import Home from "./pages/Home"
 import Families from './pages/Families';
 import Footer from './components/Footer';
 import Couple from './pages/Couple';
+import Proposals from './pages/Proposals';
+
 
 function App() {
   return (
@@ -15,6 +17,9 @@ function App() {
     <Route path='/' element={<Home/>}/>
     <Route path='/Families' element={<Families/>}/>
     <Route path='/Couple' element={<Couple/>}/>
+    <Route path='/Proposals' element={<Proposals/>}/>
+
+    
     </Routes>
     <Footer/>
     </BrowserRouter>

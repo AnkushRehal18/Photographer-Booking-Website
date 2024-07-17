@@ -2,6 +2,8 @@ import React from "react";
 import '../components/filecss.css';
 import coupleImage from './Couple1.jpg';
 import { Link } from "react-router-dom";
+import Uppertext from "../components/Uppertext";
+import Textcarousalmoving from "../components/Text_carousal_moving";
 
 function Couple() {
   return (
@@ -37,7 +39,7 @@ function Couple() {
 
             </div>
             <div class="col-md-7">
-              <img src="./couples.jpg" class="img-fluid rounded-start" alt="..." style={{ height: "536px", width: "480px" }} />
+              <img src="./couples.jpg" class="img-fluid rounded-start" alt="..." style={{ height: "582px", width: "480px" }} />
             </div>
           </div>
         </div>
@@ -110,6 +112,15 @@ function Couple() {
         <Link to='/Meetteam' className="nav-link book-today1">BOOK TODAY</Link>
         {/* have to createa a page for booking too. */}
       </div>
+      {/* text before carosal */}
+      <Uppertext textup={"Come and Explore"} textdown={"India with us"}/>
+
+      {/* carousal and text */}
+
+      <Textcarousalmoving/>
+
+      
+
     </>
   )
 }

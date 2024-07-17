@@ -383,3 +383,20 @@ footer {
     justify-content: center;
     margin-top: 60px;
 }
+
+.styling{
+    color: #8b4513; 
+    font-family: "Playwrite HR Lijeva", cursive;
+  font-optical-sizing: auto;
+  font-size: 25px;
+  font-weight: 500px;
+  font-style:normal;
+}
+
+.setrighttext{
+    font-family: "Baskervville SC", serif;
+    font-weight: 500;
+    font-size: 20px;
+    font-style: normal;
+    color: #bb6528;
+}

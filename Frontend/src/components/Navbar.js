@@ -21,7 +21,7 @@ function Navbar() {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav ms-auto">
-              <Link to='/' className="nav-link active" aria-current="page">HOME</Link>
+              <Link to='/' className="nav-link" aria-current="page">HOME</Link>
               <Link to='/Families' className="nav-link"><u>FAMILIES</u></Link>
               <Link to='/Couple' className="nav-link">COUPLES</Link>
               <Link to='/Proposals' className="nav-link">PROPOSALS</Link>
