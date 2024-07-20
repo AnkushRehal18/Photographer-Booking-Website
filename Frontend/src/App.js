@@ -6,6 +6,7 @@ import Families from './pages/Families';
 import Footer from './components/Footer';
 import Couple from './pages/Couple';
 import Proposals from './pages/Proposals';
+import Elopments from './pages/Elopments';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
     <Route path='/Families' element={<Families/>}/>
     <Route path='/Couple' element={<Couple/>}/>
     <Route path='/Proposals' element={<Proposals/>}/>
+    <Route path='/Elopments' element={<Elopments/>}/>
 
     
     </Routes>
