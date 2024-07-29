@@ -76,7 +76,25 @@ const Elopments = () => {
       {/* area for the photographers team */}
 
       <section className='photographers'>
-        hi
+        <div className='container ' >
+          <div className='row' >
+            <div className='col-lg-7' >
+            <img src='./photography.webp' alt=''></img>
+            </div>
+            <div className='col-lg-5' style={{alignContent:"center"}}>
+            <p className='font1'>A Little About</p>
+            <p className='font2'>The Team</p>
+            <p className='font3'>We are a team of local photogs dedicated to capturing the majesty of
+            Zion National Park + Southern Utah.</p>
+            <p className='font4'>Our process is simple, straight-forward, and all about authenticity.</p>
+            <p className='font5'>WE ARE SKILLED AT HELPING YOU FEEL RELAXED, COMFORTABLE AND IN THE MOMENT. </p>
+            <p className='font4'>We want the memories you make during your special day to be just as good as the memories we capture.</p>
+
+            {/* change this button in end for check avalability */}
+            <Link to='/Meetteam' className="nav-link book-today1">MEET THE TEAM</Link> 
+          </div>
+          </div>
+        </div>
       </section>
     </>
   )

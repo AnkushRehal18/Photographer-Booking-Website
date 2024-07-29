@@ -438,6 +438,40 @@ color: #964b00;
 }
 
 .photographers{
-    background-color: #bb6528;
+    background-color: #B36307;
     height: 900px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.font1{
+    font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight:500;
+  font-style: normal;
+  font-size: 25px;
+}
+.font2{
+    font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100px;
+}
+.font3{
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.font4{
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.font5{
+    font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight:500;
+  font-style: normal;
+  font-size: 17px;
 }
